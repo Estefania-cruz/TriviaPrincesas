@@ -28,31 +28,31 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="La naturaleza y nosotros somos uno"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="426dp" />
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="417dp" />
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Prefiero estar en casa o en la ciudad"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="475dp" />
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="456dp" />
 
     <CheckBox
         android:id="@+id/checkBox3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="No me gusta mucho"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="529dp" />
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="500dp" />
 
     <Button
         android:id="@+id/btnSiguente"
         android:layout_width="205dp"
         android:layout_height="56dp"
         android:text="Siguiente pregunta"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="633dp" />
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="569dp" />
 
 </android.support.constraint.ConstraintLayout>

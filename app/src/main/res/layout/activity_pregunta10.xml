@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DC7A9B"
+    tools:context=".PreguntaActivity10">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Si te concedieran un deseo… ¿qué pedirías?"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="285dp"
+        android:layout_height="271dp"
+        app:srcCompat="@drawable/hadamadrina"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tener amigos"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crecer"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="489dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar mi vida"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <Button
+        android:id="@+id/btnSiguente"
+        android:layout_width="205dp"
+        android:layout_height="56dp"
+        android:text="Siguiente pregunta"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="583dp" />
+</android.support.constraint.ConstraintLayout>

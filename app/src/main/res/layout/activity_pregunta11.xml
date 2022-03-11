@@ -4,54 +4,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E88CAB"
-    tools:context=".PreguntaActivity5">
+    android:background="#EA88A9"
+    tools:context=".PreguntaActivity11">
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="¿Qué te pondrías para ir a una fiesta?"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="96dp" />
+        android:text="Qué princesa sería tu mejor amiga?"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="55dp" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/descarga"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="142dp" />
+        app:srcCompat="@drawable/descarga__2_"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="141dp" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/checkBox21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Depende de la fiesta"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="376dp" />
+        android:text="Ariel"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="347dp" />
 
     <CheckBox
-        android:id="@+id/checkBox4"
+        android:id="@+id/checkBox22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lo primero que encuentre"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="426dp" />
+        android:text="Rapunzel"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="394dp" />
 
     <CheckBox
-        android:id="@+id/checkBox5"
+        android:id="@+id/checkBox23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Un vestido azul"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="471dp" />
+        android:text="Mulan"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="442dp" />
 
     <Button
         android:id="@+id/btnSiguente"
         android:layout_width="205dp"
         android:layout_height="56dp"
         android:text="Siguiente pregunta"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="529dp" />
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="491dp" />
 </android.support.constraint.ConstraintLayout>

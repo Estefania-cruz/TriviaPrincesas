@@ -18,17 +18,12 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="¿Qué es lo que haces?"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="93dp"
         android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/btnSiguente"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"/>
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="86dp" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -52,24 +47,23 @@
         android:layout_height="wrap_content"
         android:text="Busco a alguien que parezca simpatico."
         tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="476dp" />
+        tools:layout_editor_absoluteY="469dp" />
 
     <CheckBox
         android:id="@+id/checkPregunta3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Me pongo a bailar conozca a alguien o no."
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="542dp" />
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="524dp" />
 
     <Button
         android:id="@+id/btnSiguente"
         android:layout_width="205dp"
         android:layout_height="56dp"
         android:text="Siguiente pregunta"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="633dp" />
-
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="578dp" />
 
 
 </android.support.constraint.ConstraintLayout>

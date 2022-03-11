@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EC7EA3"
+    tools:context=".PreguntaActivity7">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="186dp"
+        android:layout_height="21dp"
+        android:text="¿Qué habilidad prefieres?"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="301dp"
+        android:layout_height="195dp"
+        app:srcCompat="@drawable/descarga__1_"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leer con mayor rapidez"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Controlar el hielo"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hablar con los animales"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <Button
+        android:id="@+id/btnSiguente"
+        android:layout_width="205dp"
+        android:layout_height="56dp"
+        android:text="Siguiente pregunta"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="518dp" />
+</android.support.constraint.ConstraintLayout>

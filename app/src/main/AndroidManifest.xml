@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TriviaPrincesas">
         <activity
+            android:name=".PreguntaActivity11"
+            android:exported="false" />
+        <activity
+            android:name=".PreguntaActivity10"
+            android:exported="false" />
+        <activity
+            android:name=".PreguntaActivity9"
+            android:exported="false" />
+        <activity
+            android:name=".PreguntaActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".PreguntaActivity7"
+            android:exported="false" />
+        <activity
             android:name=".PreguntaActivity6"
             android:exported="false" />
         <activity

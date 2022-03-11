@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DF7196"
+    tools:context=".PreguntaActivity9">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Cómo te gusta que te llamen tus amig@s?"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="309dp"
+        android:layout_height="249dp"
+        app:srcCompat="@drawable/_06060a9681275f6bc7d69f372c8bea1"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Un diminutivo de mi nombre"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Por un apodo"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="488dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No me llaman 🙁"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <Button
+        android:id="@+id/btnSiguente"
+        android:layout_width="205dp"
+        android:layout_height="56dp"
+        android:text="Siguiente pregunta"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="626dp" />
+</android.support.constraint.ConstraintLayout>

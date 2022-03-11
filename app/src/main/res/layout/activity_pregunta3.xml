@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:text="Intelectual"
         tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="469dp" />
+        tools:layout_editor_absoluteY="448dp" />
 
     <CheckBox
         android:id="@+id/checkPregunta2"
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:text=" No lo se no pienso mucho en el amor"
         tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="526dp" />
+        tools:layout_editor_absoluteY="500dp" />
 
     <CheckBox
         android:id="@+id/checkPregunta3"
@@ -52,6 +52,6 @@
         android:layout_width="205dp"
         android:layout_height="56dp"
         android:text="Siguiente pregunta"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="633dp" />
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="555dp" />
 </android.support.constraint.ConstraintLayout>

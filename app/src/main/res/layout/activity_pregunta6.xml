@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:text="Tigre"
         tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="479dp" />
+        tools:layout_editor_absoluteY="460dp" />
 
     <CheckBox
         android:id="@+id/checkBox8"
@@ -45,14 +45,14 @@
         android:layout_height="wrap_content"
         android:text="Rana"
         tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="541dp" />
+        tools:layout_editor_absoluteY="508dp" />
 
     <Button
         android:id="@+id/btnSiguente"
         android:layout_width="205dp"
         android:layout_height="56dp"
         android:text="Siguiente pregunta"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="633dp" />
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="564dp" />
 
 </android.support.constraint.ConstraintLayout>

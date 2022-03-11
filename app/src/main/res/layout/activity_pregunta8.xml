@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3799D"
+    tools:context=".PreguntaActivity8">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Qué te gusta hacer los domingos?"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="310dp"
+        android:layout_height="175dp"
+        app:srcCompat="@drawable/ll"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="130dp"
+        android:layout_height="63dp"
+        android:text="Salir de fiesta"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visitar nuevos lugares"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox14"
+        android:layout_width="74dp"
+        android:layout_height="55dp"
+        android:text="Leer"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <Button
+        android:id="@+id/btnSiguente"
+        android:layout_width="205dp"
+        android:layout_height="56dp"
+        android:text="Siguiente pregunta"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="508dp" />
+</android.support.constraint.ConstraintLayout>
