@@ -40,12 +40,12 @@
 
     <EditText
         android:id="@+id/editTxt"
-        android:layout_width="232dp"
-        android:layout_height="0dp"
+        android:layout_width="288dp"
+        android:layout_height="41dp"
         android:layout_marginBottom="33dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Nombre"
+        android:text="Escribe tu nombre completo"
         android:textSize="20sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toTopOf="@+id/btnComenzar"

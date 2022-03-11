@@ -11,47 +11,66 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="43dp"
         android:text="Si te concedieran un deseo… ¿qué pedirías?"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="65dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="285dp"
-        android:layout_height="271dp"
-        app:srcCompat="@drawable/hadamadrina"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="127dp" />
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="47dp"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/hadamadrina" />
 
     <CheckBox
         android:id="@+id/checkBox18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginBottom="12dp"
         android:text="Tener amigos"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="445dp" />
+        app:layout_constraintBottom_toTopOf="@+id/checkBox19"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
     <CheckBox
         android:id="@+id/checkBox19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
         android:text="Crecer"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="489dp" />
+        app:layout_constraintBottom_toTopOf="@+id/checkBox20"
+        app:layout_constraintStart_toStartOf="@+id/checkBox18"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox18" />
 
     <CheckBox
         android:id="@+id/checkBox20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
         android:text="Cambiar mi vida"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="538dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnSiguente"
+        app:layout_constraintStart_toStartOf="@+id/checkBox19"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox19" />
 
     <Button
         android:id="@+id/btnSiguente"
-        android:layout_width="205dp"
-        android:layout_height="56dp"
+        android:layout_width="300dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="92dp"
         android:text="Siguiente pregunta"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="583dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox20" />
 </android.support.constraint.ConstraintLayout>

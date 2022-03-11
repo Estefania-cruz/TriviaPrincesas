@@ -11,47 +11,64 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginBottom="27dp"
         android:text="¿Qué te pondrías para ir a una fiesta?"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="96dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/descarga"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="142dp" />
+        android:layout_marginBottom="75dp"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/descarga" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginBottom="18dp"
         android:text="Depende de la fiesta"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="376dp" />
+        app:layout_constraintBottom_toTopOf="@+id/checkBox4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <CheckBox
         android:id="@+id/checkBox4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
         android:text="Lo primero que encuentre"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="426dp" />
+        app:layout_constraintBottom_toTopOf="@+id/checkBox5"
+        app:layout_constraintStart_toStartOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
 
     <CheckBox
         android:id="@+id/checkBox5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
         android:text="Un vestido azul"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="471dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnSiguente"
+        app:layout_constraintStart_toStartOf="@+id/checkBox4"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
 
     <Button
         android:id="@+id/btnSiguente"
         android:layout_width="205dp"
-        android:layout_height="56dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="146dp"
         android:text="Siguiente pregunta"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="529dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox5" />
 </android.support.constraint.ConstraintLayout>

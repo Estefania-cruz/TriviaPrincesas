@@ -11,47 +11,67 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:layout_marginBottom="45dp"
         android:text="¿Qué te gusta hacer los domingos?"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="53dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="310dp"
-        android:layout_height="175dp"
-        app:srcCompat="@drawable/ll"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="117dp" />
+        android:layout_width="347dp"
+        android:layout_height="138dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="39dp"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/ll" />
 
     <CheckBox
         android:id="@+id/checkBox12"
         android:layout_width="130dp"
-        android:layout_height="63dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="7dp"
         android:text="Salir de fiesta"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="331dp" />
+        app:layout_constraintBottom_toTopOf="@+id/checkBox13"
+        app:layout_constraintEnd_toEndOf="@+id/checkBox13"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
     <CheckBox
         android:id="@+id/checkBox13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
         android:text="Visitar nuevos lugares"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="401dp" />
+        app:layout_constraintBottom_toTopOf="@+id/checkBox14"
+        app:layout_constraintEnd_toEndOf="@+id/btnSiguente"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox12" />
 
     <CheckBox
         android:id="@+id/checkBox14"
         android:layout_width="74dp"
-        android:layout_height="55dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
         android:text="Leer"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="433dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnSiguente"
+        app:layout_constraintStart_toStartOf="@+id/checkBox13"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox13" />
 
     <Button
         android:id="@+id/btnSiguente"
         android:layout_width="205dp"
-        android:layout_height="56dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginBottom="167dp"
         android:text="Siguiente pregunta"
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="508dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox14" />
 </android.support.constraint.ConstraintLayout>

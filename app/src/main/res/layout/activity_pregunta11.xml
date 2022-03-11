@@ -11,47 +11,65 @@
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="67dp"
         android:text="Qué princesa sería tu mejor amiga?"
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="55dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/descarga__2_"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="141dp" />
+        android:layout_marginBottom="38dp"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/descarga__2_" />
 
     <CheckBox
         android:id="@+id/checkBox21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="71dp"
+        android:layout_marginBottom="15dp"
         android:text="Ariel"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="347dp" />
+        app:layout_constraintBottom_toTopOf="@+id/checkBox22"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
     <CheckBox
         android:id="@+id/checkBox22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="Rapunzel"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="394dp" />
+        app:layout_constraintBottom_toTopOf="@+id/checkBox23"
+        app:layout_constraintStart_toStartOf="@+id/checkBox21"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox21" />
 
     <CheckBox
         android:id="@+id/checkBox23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="17dp"
         android:text="Mulan"
-        tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="442dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnSiguente"
+        app:layout_constraintStart_toStartOf="@+id/checkBox22"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox22" />
 
     <Button
         android:id="@+id/btnSiguente"
-        android:layout_width="205dp"
-        android:layout_height="56dp"
+        android:layout_width="317dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="184dp"
         android:text="Siguiente pregunta"
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="491dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox23" />
 </android.support.constraint.ConstraintLayout>

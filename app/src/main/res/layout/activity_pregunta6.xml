@@ -9,50 +9,73 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="202dp"
-        android:layout_height="18dp"
+        android:layout_width="275dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="39dp"
         android:text="¿Qué animal prefieres?"
-        tools:layout_editor_absoluteX="127dp"
-        tools:layout_editor_absoluteY="62dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="325dp"
+        android:layout_width="347dp"
         android:layout_height="262dp"
-        app:srcCompat="@drawable/_l_m0ito"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="119dp" />
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="33dp"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/_l_m0ito" />
 
     <CheckBox
         android:id="@+id/checkBox6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginBottom="14dp"
         android:text="Raton"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="414dp" />
+        app:layout_constraintBottom_toTopOf="@+id/checkBox7"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <CheckBox
         android:id="@+id/checkBox7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="Tigre"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="460dp" />
+        app:layout_constraintBottom_toTopOf="@+id/checkBox8"
+        app:layout_constraintStart_toStartOf="@+id/checkBox6"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox6" />
 
     <CheckBox
         android:id="@+id/checkBox8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
         android:text="Rana"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="508dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnSiguente"
+        app:layout_constraintStart_toStartOf="@+id/checkBox7"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
 
     <Button
         android:id="@+id/btnSiguente"
         android:layout_width="205dp"
-        android:layout_height="56dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="111dp"
         android:text="Siguiente pregunta"
-        tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="564dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox8" />
 
 </android.support.constraint.ConstraintLayout>
