@@ -10,6 +10,8 @@ import android.widget.RadioButton;
 public class MainActivity2 extends AppCompatActivity {
     Button boton;
     RadioButton respuesta1, respuesta2, respuesta3;
+
+    int puntuacion;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,24 +20,36 @@ public class MainActivity2 extends AppCompatActivity {
         String nombre = getIntent().getStringExtra("nombre");
 
         boton = this.findViewById(R.id.btnSigue);
-        //respuesta1 = this.findViewById(R.id.);
+        respuesta1 = this.findViewById(R.id.radioButton4);
+        respuesta2 = this.findViewById(R.id.radioButton5);
+        respuesta3 = this.findViewById(R.id.radioButton6);
 
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //puntuacionRespuesta(respuestas.getCheckedRadioButtonId());
-
-                Intent intent = new Intent(MainActivity2.this, PreguntaActivity3.class);
-                intent.putExtra("nombre", nombre);
-                startActivity(intent);
+                if(puntuacionRespuesta()){
+                    Intent intent = new Intent(MainActivity2.this, PreguntaActivity3.class);
+                    intent.putExtra("nombre", nombre);
+                    intent.putExtra("puntuacion", puntuacion);
+                    startActivity(intent);
+                }else{
+                    //
+                }
             }
         });
     }
 
-    /*private int puntuacionRespuesta(int id){
-        switch (id){
-            case 's':
+    private boolean puntuacionRespuesta(){
+        if(respuesta1.isChecked()){
+            puntuacion = 5;
+            return true;
+        }else if(respuesta2.isChecked()){
+            puntuacion = 7;
+            return true;
+        }else if(respuesta3.isChecked()){
+            puntuacion = 1;
+            return true;
         }
-        return 0;
-    }*/
+        return false;
+    }
 }
