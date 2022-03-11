@@ -13,6 +13,7 @@ import android.view.View;
 public class MainActivity extends AppCompatActivity {
    Button btnComenzar;
    EditText editTxt;
+    Button btnSiguiente;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

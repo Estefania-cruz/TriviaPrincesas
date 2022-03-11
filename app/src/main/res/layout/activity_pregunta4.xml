@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E184A4"
+    tools:context=".PreguntaActivity4">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ¿Cómo es tu relación con la naturaleza?"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="341dp"
+        android:layout_height="244dp"
+        app:srcCompat="@drawable/disney_test_princesa_mejor_amiga_1_crop1617316735137_jpg_423682103"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <CheckBox
+        android:id="@+id/checkPregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La naturaleza y nosotros somos uno"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prefiero estar en casa o en la ciudad"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No me gusta mucho"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="529dp" />
+
+    <Button
+        android:id="@+id/btnSiguente"
+        android:layout_width="205dp"
+        android:layout_height="56dp"
+        android:text="Siguiente pregunta"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="633dp" />
+
+</android.support.constraint.ConstraintLayout>

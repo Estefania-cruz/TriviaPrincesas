@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E88CAB"
+    tools:context=".PreguntaActivity5">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Qué te pondrías para ir a una fiesta?"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/descarga"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Depende de la fiesta"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lo primero que encuentre"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Un vestido azul"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="498dp" />
+
+    <Button
+        android:id="@+id/btnSiguente"
+        android:layout_width="205dp"
+        android:layout_height="56dp"
+        android:text="Siguiente pregunta"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="598dp" />
+</android.support.constraint.ConstraintLayout>

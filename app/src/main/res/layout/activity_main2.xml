@@ -4,13 +4,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EA92B0"
     tools:context=".MainActivity2">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="nueva vista xd"
-        tools:layout_editor_absoluteX="150dp"
-        tools:layout_editor_absoluteY="276dp" />
+        android:text="Si vas a una fiesta y no conoces a nadie"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Qué es lo que haces?"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="93dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/btnSiguente"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="331dp"
+        android:layout_height="225dp"
+        app:srcCompat="@drawable/a_c_050_a"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <CheckBox
+        android:id="@+id/checkPregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Me quedo en una esquina no soy muy sociable."
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="413dp" />
+
+    <CheckBox
+        android:id="@+id/checkPregunta2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Busco a alguien que parezca simpatico."
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="476dp" />
+
+    <CheckBox
+        android:id="@+id/checkPregunta3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Me pongo a bailar conozca a alguien o no."
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="542dp" />
+
+    <Button
+        android:id="@+id/btnSiguente"
+        android:layout_width="205dp"
+        android:layout_height="56dp"
+        android:text="Siguiente pregunta"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="633dp" />
+
+
+
 </android.support.constraint.ConstraintLayout>
