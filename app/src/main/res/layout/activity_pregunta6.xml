@@ -63,14 +63,14 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:text="Rana"
-        app:layout_constraintBottom_toTopOf="@+id/btnSiguente"
+        app:layout_constraintBottom_toTopOf="@+id/btnSexto"
         app:layout_constraintStart_toStartOf="@+id/checkBox7"
         app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
 
     <Button
-        android:id="@+id/btnSiguente"
-        android:layout_width="205dp"
-        android:layout_height="0dp"
+        android:id="@+id/btnSexto"
+        android:layout_width="287dp"
+        android:layout_height="54dp"
         android:layout_marginBottom="111dp"
         android:text="Siguiente pregunta"
         app:layout_constraintBottom_toBottomOf="parent"

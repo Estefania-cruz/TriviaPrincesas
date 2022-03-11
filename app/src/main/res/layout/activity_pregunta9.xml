@@ -59,12 +59,12 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="41dp"
         android:text="No me llaman 🙁"
-        app:layout_constraintBottom_toTopOf="@+id/btnSiguente"
+        app:layout_constraintBottom_toTopOf="@+id/btnNueve"
         app:layout_constraintStart_toStartOf="@+id/checkBox16"
         app:layout_constraintTop_toBottomOf="@+id/checkBox16" />
 
     <Button
-        android:id="@+id/btnSiguente"
+        android:id="@+id/btnNueve"
         android:layout_width="286dp"
         android:layout_height="124dp"
         android:layout_marginBottom="49dp"

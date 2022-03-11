@@ -57,12 +57,12 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="26dp"
         android:text="Un vestido azul"
-        app:layout_constraintBottom_toTopOf="@+id/btnSiguente"
+        app:layout_constraintBottom_toTopOf="@+id/btnQuinto"
         app:layout_constraintStart_toStartOf="@+id/checkBox4"
         app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
 
     <Button
-        android:id="@+id/btnSiguente"
+        android:id="@+id/btnQuinto"
         android:layout_width="205dp"
         android:layout_height="0dp"
         android:layout_marginBottom="146dp"

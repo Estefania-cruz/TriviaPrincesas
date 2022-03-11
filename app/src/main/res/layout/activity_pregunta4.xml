@@ -60,12 +60,12 @@
         android:layout_marginStart="1dp"
         android:layout_marginBottom="37dp"
         android:text="No me gusta mucho"
-        app:layout_constraintBottom_toTopOf="@+id/btnSiguente"
+        app:layout_constraintBottom_toTopOf="@+id/btnCuarto"
         app:layout_constraintStart_toStartOf="@+id/checkBox2"
         app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
 
     <Button
-        android:id="@+id/btnSiguente"
+        android:id="@+id/btnCuarto"
         android:layout_width="280dp"
         android:layout_height="108dp"
         android:layout_marginBottom="106dp"

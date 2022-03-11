@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TriviaPrincesas">
         <activity
+            android:name=".ResActivity3"
+            android:exported="false" />
+        <activity
             android:name=".PreguntaActivity11"
             android:exported="false" />
         <activity

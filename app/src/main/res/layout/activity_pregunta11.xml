@@ -58,12 +58,12 @@
         android:layout_marginStart="3dp"
         android:layout_marginBottom="17dp"
         android:text="Mulan"
-        app:layout_constraintBottom_toTopOf="@+id/btnSiguente"
+        app:layout_constraintBottom_toTopOf="@+id/btnOnce"
         app:layout_constraintStart_toStartOf="@+id/checkBox22"
         app:layout_constraintTop_toBottomOf="@+id/checkBox22" />
 
     <Button
-        android:id="@+id/btnSiguente"
+        android:id="@+id/btnOnce"
         android:layout_width="317dp"
         android:layout_height="100dp"
         android:layout_marginStart="56dp"
