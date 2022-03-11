@@ -7,6 +7,7 @@
     android:background="#EC7EA3"
     tools:context=".PreguntaActivity7">
 
+
     <TextView
         android:id="@+id/textView8"
         android:layout_width="233dp"
@@ -21,55 +22,54 @@
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="328dp"
-        android:layout_height="170dp"
-        android:layout_marginStart="54dp"
-        android:layout_marginEnd="54dp"
-        android:layout_marginBottom="38dp"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox9"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginBottom="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/radioButton16"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/descarga__1_" />
 
-    <CheckBox
-        android:id="@+id/checkBox9"
+    <RadioButton
+        android:id="@+id/radioButton16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="42dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginBottom="15dp"
         android:text="Leer con mayor rapidez"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox10"
+        app:layout_constraintBottom_toTopOf="@+id/radioButton17"
         app:layout_constraintStart_toStartOf="@+id/imageView6"
         app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
-    <CheckBox
-        android:id="@+id/checkBox10"
+    <RadioButton
+        android:id="@+id/radioButton18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="17dp"
+        android:layout_marginBottom="47dp"
         android:text="Controlar el hielo"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox11"
-        app:layout_constraintStart_toStartOf="@+id/checkBox9"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox9" />
+        app:layout_constraintBottom_toTopOf="@+id/btnSiete"
+        app:layout_constraintStart_toStartOf="@+id/radioButton17"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton17" />
 
-    <CheckBox
-        android:id="@+id/checkBox11"
+    <RadioButton
+        android:id="@+id/radioButton17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="18dp"
         android:text="Hablar con los animales"
-        app:layout_constraintBottom_toTopOf="@+id/btnSiete"
-        app:layout_constraintStart_toStartOf="@+id/checkBox10"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox10" />
+        app:layout_constraintBottom_toTopOf="@+id/radioButton18"
+        app:layout_constraintStart_toStartOf="@+id/radioButton16"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton16" />
 
     <Button
         android:id="@+id/btnSiete"
-        android:layout_width="205dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="85dp"
-        android:layout_marginBottom="157dp"
+        android:layout_width="255dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="155dp"
         android:text="Siguiente pregunta"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox11" />
+        app:layout_constraintStart_toStartOf="@+id/radioButton18"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton18" />
+
 </android.support.constraint.ConstraintLayout>

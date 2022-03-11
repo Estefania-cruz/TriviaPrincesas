@@ -23,52 +23,60 @@
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="75dp"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox"
+        android:layout_marginTop="137dp"
+        android:layout_marginBottom="65dp"
+        app:layout_constraintBottom_toTopOf="@+id/radioButton10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/descarga" />
 
-    <CheckBox
-        android:id="@+id/checkBox"
+
+    <RadioButton
+        android:id="@+id/radioButton10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="108dp"
-        android:layout_marginBottom="18dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="9dp"
         android:text="Depende de la fiesta"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox4"
+        app:layout_constraintBottom_toTopOf="@+id/radioButton11"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
-    <CheckBox
-        android:id="@+id/checkBox4"
+    <RadioButton
+        android:id="@+id/radioButton12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="13dp"
+        android:layout_marginBottom="43dp"
         android:text="Lo primero que encuentre"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox5"
-        app:layout_constraintStart_toStartOf="@+id/checkBox"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+        app:layout_constraintBottom_toTopOf="@+id/btnQuinto"
+        app:layout_constraintStart_toStartOf="@+id/radioButton11"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton11" />
 
-    <CheckBox
-        android:id="@+id/checkBox5"
+    <RadioButton
+        android:id="@+id/radioButton11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="26dp"
+        android:layout_marginBottom="9dp"
         android:text="Un vestido azul"
-        app:layout_constraintBottom_toTopOf="@+id/btnQuinto"
-        app:layout_constraintStart_toStartOf="@+id/checkBox4"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+        app:layout_constraintBottom_toTopOf="@+id/radioButton12"
+        app:layout_constraintStart_toStartOf="@+id/radioButton10"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton10" />
 
     <Button
         android:id="@+id/btnQuinto"
-        android:layout_width="205dp"
+        android:layout_width="225dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="146dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="149dp"
         android:text="Siguiente pregunta"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox5" />
+        app:layout_constraintTop_toBottomOf="@+id/radioButton12" />
+
+
 </android.support.constraint.ConstraintLayout>

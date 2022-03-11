@@ -11,66 +11,66 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="72dp"
-        android:layout_marginBottom="45dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="18dp"
         android:text="¿Cómo te gusta que te llamen tus amig@s?"
         app:layout_constraintBottom_toTopOf="@+id/imageView8"
-        app:layout_constraintStart_toStartOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="43dp"
-        android:layout_marginEnd="43dp"
-        android:layout_marginBottom="36dp"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox15"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/radioButton22"
+        app:layout_constraintEnd_toEndOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/textView10"
         app:srcCompat="@drawable/_06060a9681275f6bc7d69f372c8bea1" />
 
-    <CheckBox
-        android:id="@+id/checkBox15"
+    <RadioButton
+        android:id="@+id/radioButton22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="35dp"
+        android:layout_marginBottom="12dp"
         android:text="Un diminutivo de mi nombre"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox16"
-        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintBottom_toTopOf="@+id/radioButton23"
+        app:layout_constraintStart_toStartOf="@+id/imageView8"
         app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
-    <CheckBox
-        android:id="@+id/checkBox16"
+    <RadioButton
+        android:id="@+id/radioButton23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="33dp"
+        android:layout_marginBottom="12dp"
         android:text="Por un apodo"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox17"
-        app:layout_constraintStart_toStartOf="@+id/checkBox15"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox15" />
+        app:layout_constraintBottom_toTopOf="@+id/radioButton24"
+        app:layout_constraintStart_toStartOf="@+id/radioButton22"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton22" />
 
-    <CheckBox
-        android:id="@+id/checkBox17"
+    <RadioButton
+        android:id="@+id/radioButton24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="41dp"
+        android:layout_marginBottom="36dp"
         android:text="No me llaman 🙁"
         app:layout_constraintBottom_toTopOf="@+id/btnNueve"
-        app:layout_constraintStart_toStartOf="@+id/checkBox16"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox16" />
+        app:layout_constraintStart_toStartOf="@+id/radioButton23"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton23" />
 
     <Button
         android:id="@+id/btnNueve"
-        android:layout_width="286dp"
-        android:layout_height="124dp"
-        android:layout_marginBottom="49dp"
+        android:layout_width="259dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginBottom="129dp"
         android:text="Siguiente pregunta"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox17" />
+        app:layout_constraintTop_toBottomOf="@+id/radioButton24" />
+
 </android.support.constraint.ConstraintLayout>
