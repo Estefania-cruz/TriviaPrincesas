@@ -13,11 +13,17 @@ public class PreguntaActivity7 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pregunta7);
+
+        String nombre = getIntent().getStringExtra("nombre");
+
         boton = (Button) findViewById(R.id.btnSiete);
+
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(PreguntaActivity7.this, PreguntaActivity8.class));
+                Intent intent = new Intent(PreguntaActivity7.this, PreguntaActivity8.class);
+                intent.putExtra("nombre", nombre);
+                startActivity(intent);
             }
         });
 

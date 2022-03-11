@@ -11,9 +11,8 @@ import android.view.View;
 
 
 public class MainActivity extends AppCompatActivity {
-   Button btnComenzar;
-   EditText editTxt;
-    Button btnSiguiente;
+    Button btnComenzar;
+    EditText editTxt;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,15 +24,12 @@ public class MainActivity extends AppCompatActivity {
         btnComenzar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String t = editTxt.getText().toString();
+                String nombre = editTxt.getText().toString();
 
                 Intent intent = new Intent(MainActivity.this, MainActivity2.class);
-                intent.putExtra("nombre", t);
+                intent.putExtra("nombre", nombre);
                 startActivity(intent);
-                //Toast.makeText(MainActivity.this, t, Toast.LENGTH_SHORT).show();
             }
         });
-
-        //Toast.makeText(MainActivity.this, "Hola Mundo", Toast.LENGTH_SHORT).show();
     }
 }

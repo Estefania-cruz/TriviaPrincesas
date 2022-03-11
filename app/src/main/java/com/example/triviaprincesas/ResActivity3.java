@@ -9,5 +9,7 @@ public class ResActivity3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_res3);
+
+        String nombre = getIntent().getStringExtra("nombre");
     }
 }
