@@ -18,6 +18,7 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
+        Intent intent = new Intent(MainActivity2.this, PreguntaActivity3.class);
         String nombre = getIntent().getStringExtra("nombre");
 
         boton = this.findViewById(R.id.btnSigue);
@@ -29,7 +30,7 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 puntuacionRespuesta();
-                Intent intent = new Intent(MainActivity2.this, PreguntaActivity3.class);
+
                 //intent.putExtra("nombre", nombre);
                 intent.putExtra("puntuacion", puntuacion);
                 startActivity(intent);
