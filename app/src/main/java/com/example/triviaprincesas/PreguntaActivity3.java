@@ -20,17 +20,18 @@ public class PreguntaActivity3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pregunta3);
 
-        //String nombre = getIntent().getStringExtra("nombre");
-        puntuacionString = getIntent().getStringExtra("puntuacion");
-
-        Toast.makeText(this, "Puntuacion anterior: " + puntuacionString, Toast.LENGTH_SHORT).show();
-
         //puntuacion = 0;//Integer.parseInt();
 
         boton = (Button) findViewById(R.id.btnTercer);
         respuesta1 = this.findViewById(R.id.radioButton);
         respuesta2 = this.findViewById(R.id.radioButton2);
         respuesta3 = this.findViewById(R.id.radioButton3);
+
+        //String nombre = getIntent().getStringExtra("nombre");
+        System.out.println(getIntent().getStringExtra("puntuacion"));
+        puntuacionString = getIntent().getStringExtra("puntuacion");
+
+        Toast.makeText(this, "Puntuacion anterior: " + puntuacionString, Toast.LENGTH_SHORT).show();
 
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
