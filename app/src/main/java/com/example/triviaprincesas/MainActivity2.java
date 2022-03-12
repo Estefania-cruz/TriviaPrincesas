@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
+import android.widget.Toast;
 
 public class MainActivity2 extends AppCompatActivity {
     Button boton;
@@ -27,29 +28,33 @@ public class MainActivity2 extends AppCompatActivity {
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(puntuacionRespuesta()){
+                puntuacionRespuesta();
+                /*if(puntuacionRespuesta()){
                     Intent intent = new Intent(MainActivity2.this, PreguntaActivity3.class);
                     intent.putExtra("nombre", nombre);
                     intent.putExtra("puntuacion", puntuacion);
                     startActivity(intent);
                 }else{
                     //
-                }
+                }*/
             }
         });
     }
 
-    private boolean puntuacionRespuesta(){
+    private void puntuacionRespuesta(){
         if(respuesta1.isChecked()){
             puntuacion = 5;
-            return true;
+            Toast.makeText(this, "Puntuacion: " + puntuacion, Toast.LENGTH_SHORT).show();
+            //return true;
         }else if(respuesta2.isChecked()){
             puntuacion = 7;
-            return true;
+            Toast.makeText(this, "Puntuacion: " + puntuacion, Toast.LENGTH_SHORT).show();
+            //return true;
         }else if(respuesta3.isChecked()){
             puntuacion = 1;
-            return true;
+            Toast.makeText(this, "Puntuacion: " + puntuacion, Toast.LENGTH_SHORT).show();
+            //return true;
         }
-        return false;
+        //return false;
     }
 }
