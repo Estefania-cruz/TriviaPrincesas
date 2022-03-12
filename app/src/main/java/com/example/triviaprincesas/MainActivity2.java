@@ -32,7 +32,7 @@ public class MainActivity2 extends AppCompatActivity {
                 puntuacionRespuesta();
 
                 //intent.putExtra("nombre", nombre);
-                intent.putExtra("puntuacion", puntuacion);
+                intent.putExtra("puntuacion", String.valueOf(puntuacion));
                 startActivity(intent);
                 finish();
                 /*if(puntuacionRespuesta()){
