@@ -23,13 +23,21 @@ public class PreguntaActivity3 extends AppCompatActivity {
         puntuacion = Integer.parseInt(getIntent().getStringExtra("puntuacion"));
 
         boton = (Button) findViewById(R.id.btnTercer);
+        respuesta1 = this.findViewById(R.id.radioButton);
+        respuesta2 = this.findViewById(R.id.radioButton2);
+        respuesta3 = this.findViewById(R.id.radioButton3);
 
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(PreguntaActivity3.this, PreguntaActivity4.class);
-                intent.putExtra("nombre", nombre);
-                startActivity(intent);
+                if(puntuacionRespuesta()){
+                    Intent intent = new Intent(PreguntaActivity3.this, PreguntaActivity4.class);
+                    intent.putExtra("nombre", nombre);
+                    intent.putExtra("puntuacion", puntuacion);
+                    startActivity(intent);
+                }else{
+
+                }
             }
         });
 
