@@ -24,8 +24,7 @@
             <ImageView
                 android:id="@+id/fotoPrincesa"
                 android:layout_width="match_parent"
-                android:layout_height="399dp"
-                app:srcCompat="" />
+                android:layout_height="399dp" />
 
         </LinearLayout>
 
