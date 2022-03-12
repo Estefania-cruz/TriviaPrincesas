@@ -34,6 +34,7 @@ public class MainActivity2 extends AppCompatActivity {
                 //intent.putExtra("nombre", nombre);
                 intent.putExtra("puntuacion", puntuacion);
                 startActivity(intent);
+                finish();
                 /*if(puntuacionRespuesta()){
                     Intent intent = new Intent(MainActivity2.this, PreguntaActivity3.class);
                     intent.putExtra("nombre", nombre);

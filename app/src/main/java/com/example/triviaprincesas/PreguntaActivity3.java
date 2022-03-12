@@ -20,7 +20,7 @@ public class PreguntaActivity3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pregunta3);
 
-        String nombre = getIntent().getStringExtra("nombre");
+        //String nombre = getIntent().getStringExtra("nombre");
         puntuacionString = getIntent().getStringExtra("puntuacion");
 
         Toast.makeText(this, "Puntuacion anterior: " + puntuacionString, Toast.LENGTH_SHORT).show();
