@@ -13,6 +13,7 @@ public class PreguntaActivity3 extends AppCompatActivity {
     Button boton;
     RadioButton respuesta1, respuesta2, respuesta3;
 
+    String puntuacionString;
     int puntuacion;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,13 +21,11 @@ public class PreguntaActivity3 extends AppCompatActivity {
         setContentView(R.layout.activity_pregunta3);
 
         String nombre = getIntent().getStringExtra("nombre");
-        String puntuacionString = getIntent().getStringExtra("puntuacion");
-
-        puntuacion = Integer.parseInt(puntuacionString);
+        puntuacionString = getIntent().getStringExtra("puntuacion");
 
         Toast.makeText(this, "Puntuacion anterior: " + puntuacionString, Toast.LENGTH_SHORT).show();
 
-        puntuacion = 0;//Integer.parseInt();
+        //puntuacion = 0;//Integer.parseInt();
 
         boton = (Button) findViewById(R.id.btnTercer);
         respuesta1 = this.findViewById(R.id.radioButton);
@@ -51,6 +50,8 @@ public class PreguntaActivity3 extends AppCompatActivity {
     }
 
     private void puntuacionRespuesta(){
+        puntuacion = Integer.parseInt(puntuacionString);
+
         if(respuesta1.isChecked()){
             puntuacion += 5;
             Toast.makeText(this, "Puntuacion: " + puntuacion, Toast.LENGTH_SHORT).show();
