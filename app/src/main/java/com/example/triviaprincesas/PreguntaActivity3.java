@@ -22,6 +22,8 @@ public class PreguntaActivity3 extends AppCompatActivity {
         String nombre = getIntent().getStringExtra("nombre");
         String puntuacionString = getIntent().getStringExtra("puntuacion");
 
+        puntuacion = Integer.parseInt(puntuacionString);
+
         Toast.makeText(this, "Puntuacion anterior: " + puntuacionString, Toast.LENGTH_SHORT).show();
 
         puntuacion = 0;//Integer.parseInt();
