@@ -20,7 +20,7 @@ public class PreguntaActivity3 extends AppCompatActivity {
         setContentView(R.layout.activity_pregunta3);
 
         String nombre = getIntent().getStringExtra("nombre");
-        puntuacion = Integer.parseInt(getIntent().getStringExtra("puntuacion"));
+        puntuacion = 1;//Integer.parseInt(getIntent().getStringExtra("puntuacion"));
 
         boton = (Button) findViewById(R.id.btnTercer);
         respuesta1 = this.findViewById(R.id.radioButton);
