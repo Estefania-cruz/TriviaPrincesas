@@ -15,6 +15,8 @@
         android:layout_marginTop="56dp"
         android:layout_marginBottom="18dp"
         android:text="¿Cómo te gusta que te llamen tus amig@s?"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

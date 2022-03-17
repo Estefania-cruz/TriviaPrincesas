@@ -11,26 +11,28 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="27dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="96dp"
         android:layout_marginBottom="27dp"
         android:text="¿Qué te pondrías para ir a una fiesta?"
         app:layout_constraintBottom_toTopOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="315dp"
+        android:layout_height="138dp"
         android:layout_marginTop="137dp"
         android:layout_marginBottom="65dp"
         app:layout_constraintBottom_toTopOf="@+id/radioButton10"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/descarga" />
-
 
     <RadioButton
         android:id="@+id/radioButton10"
@@ -42,6 +44,7 @@
         android:text="Depende de la fiesta"
         app:layout_constraintBottom_toTopOf="@+id/radioButton11"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
@@ -67,8 +70,8 @@
 
     <Button
         android:id="@+id/btnQuinto"
-        android:layout_width="225dp"
-        android:layout_height="0dp"
+        android:layout_width="215dp"
+        android:layout_height="60dp"
         android:layout_marginStart="70dp"
         android:layout_marginEnd="69dp"
         android:layout_marginBottom="149dp"

@@ -1,0 +1,129 @@
+[33mcommit 694240917c23ecad5eb224857e8303fbc791cd00[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: e05c228 d4bcfa3
+Author: Armando Hernandez <armando_1319104150@uptecamac.edu.mx>
+Date:   Fri Mar 11 18:48:09 2022 -0600
+
+    Merge branch 'master' of https://github.com/Estefania-cruz/TriviaPrincesas
+
+[33mcommit e05c228373fa7ddc5c2066fb41443e1daeb40591[m
+Author: Armando Hernandez <armando_1319104150@uptecamac.edu.mx>
+Date:   Fri Mar 11 18:48:04 2022 -0600
+
+    Puntuaje para saber que princesa eres v1.0
+
+[33mcommit d4bcfa3c2bbbb11743af6023cb81c417399dfe15[m
+Author: Estefania-cruz <78650703+Estefania-cruz@users.noreply.github.com>
+Date:   Fri Mar 11 18:41:51 2022 -0600
+
+    cambios en front
+
+[33mcommit a35744f209d5ff5a7473c482c3265c5bb980493f[m
+Author: Kamerz <sebaxtams@gmail.com>
+Date:   Fri Mar 11 18:06:35 2022 -0600
+
+    Cambios front
+
+[33mcommit 0585de03f7a65440e802734b562aab68b8134272[m
+Merge: e37083a 046a129
+Author: Armando Hernandez <armando_1319104150@uptecamac.edu.mx>
+Date:   Fri Mar 11 17:37:30 2022 -0600
+
+    Merge branch 'master' of https://github.com/Estefania-cruz/TriviaPrincesas
+
+[33mcommit e37083a7a68e7698b75598506a544f2a2e637968[m
+Author: Armando Hernandez <armando_1319104150@uptecamac.edu.mx>
+Date:   Fri Mar 11 17:37:22 2022 -0600
+
+    Seleccion de opcion Activity 1
+
+[33mcommit 046a129e66333bfa997902d9e38eb5d47874b413[m
+Author: Estefania-cruz <78650703+Estefania-cruz@users.noreply.github.com>
+Date:   Fri Mar 11 17:35:39 2022 -0600
+
+    diseño
+
+[33mcommit a83d60137e32538a4e148d2e62dd5b64915769e7[m
+Merge: 46c1090 fc61a5e
+Author: Armando Hernandez <armando_1319104150@uptecamac.edu.mx>
+Date:   Fri Mar 11 16:58:43 2022 -0600
+
+    Merge branch 'master' of https://github.com/Estefania-cruz/TriviaPrincesas
+
+[33mcommit 46c109034be0d3ae87d2a4d0795153c8ab0cc1a5[m
+Author: Armando Hernandez <armando_1319104150@uptecamac.edu.mx>
+Date:   Fri Mar 11 16:58:38 2022 -0600
+
+    Nombre de usuario pasando por intent entre pantallas
+
+[33mcommit fc61a5e330c842dc6a190a1c93cab1bd21caa1ae[m
+Author: Estefania-cruz <78650703+Estefania-cruz@users.noreply.github.com>
+Date:   Fri Mar 11 15:24:46 2022 -0600
+
+    cambios en front
+
+[33mcommit 4ff4506ae7ada2e364942c3e8ce900e6c03ec3c4[m
+Author: Estefania-cruz <78650703+Estefania-cruz@users.noreply.github.com>
+Date:   Fri Mar 11 07:53:43 2022 -0600
+
+    Ya cambia de activity
+
+[33mcommit 97daf99b35859e2a13be06b57a88023680ec6e6c[m
+Author: Estefania-cruz <78650703+Estefania-cruz@users.noreply.github.com>
+Date:   Fri Mar 11 07:19:10 2022 -0600
+
+    diseño
+
+[33mcommit 54930ac5f519818825f90f3138ae95145269a758[m
+Author: Estefania-cruz <78650703+Estefania-cruz@users.noreply.github.com>
+Date:   Fri Mar 11 00:51:56 2022 -0600
+
+    preguntas 6-10
+
+[33mcommit 4c86a9fd18a5a79e07aec21cccbe9e76d4ffd981[m
+Author: Estefania-cruz <78650703+Estefania-cruz@users.noreply.github.com>
+Date:   Fri Mar 11 00:25:50 2022 -0600
+
+    Preguntas 1-5
+
+[33mcommit 36e5b03c9a2b3e34442423ee398f48b39579fc9c[m
+Author: Estefania-cruz <78650703+Estefania-cruz@users.noreply.github.com>
+Date:   Thu Mar 10 22:45:35 2022 -0600
+
+    primera interfaz
+
+[33mcommit 70cfa812b83d3ff6064041497041213ed4be12ed[m
+Merge: 7410b40 ced82d5
+Author: Estefania-cruz <78650703+Estefania-cruz@users.noreply.github.com>
+Date:   Fri Mar 4 20:46:49 2022 -0600
+
+    Merge branch 'master' of https://github.com/Estefania-cruz/TriviaPrincesas
+
+[33mcommit 7410b40877c8e8ebb57f803a0df480681b4ecbe1[m
+Author: Estefania-cruz <78650703+Estefania-cruz@users.noreply.github.com>
+Date:   Fri Mar 4 20:46:13 2022 -0600
+
+    inicial
+
+[33mcommit ced82d541ab9dc0bf5367b7e56cfe8500932118c[m
+Author: Armando Hernandez <78632730+ArmandoHdzBta@users.noreply.github.com>
+Date:   Fri Mar 4 20:44:37 2022 -0600
+
+    carpeta .idea eliminada
+
+[33mcommit af5477cd21405ec6cfc16ec460ef5fd4941a71cf[m
+Author: Estefania-cruz <78650703+Estefania-cruz@users.noreply.github.com>
+Date:   Fri Mar 4 20:43:47 2022 -0600
+
+    .idea
+
+[33mcommit f4eea020d880ecfa98e5dfe8b3199b79531b9645[m
+Author: Estefania-cruz <78650703+Estefania-cruz@users.noreply.github.com>
+Date:   Fri Mar 4 20:33:01 2022 -0600
+
+    inicial
+
+[33mcommit d892d50fbcdcfd99b41b29ce2be2eb9f08589baf[m
+Author: Estefania-cruz <78650703+Estefania-cruz@users.noreply.github.com>
+Date:   Fri Mar 4 20:17:48 2022 -0600
+
+    Inicial

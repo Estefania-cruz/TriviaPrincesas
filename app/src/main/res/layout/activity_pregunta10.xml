@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="#DC7A9B"
     tools:context=".PreguntaActivity10">
-
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
@@ -14,6 +13,8 @@
         android:layout_marginTop="46dp"
         android:layout_marginBottom="50dp"
         android:text="Si te concedieran un deseo… ¿qué pedirías?"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,8 +22,8 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="347dp"
+        android:layout_height="223dp"
         android:layout_marginStart="35dp"
         android:layout_marginEnd="35dp"
         android:layout_marginBottom="19dp"
@@ -31,7 +32,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11"
         app:srcCompat="@drawable/hadamadrina" />
-
 
     <RadioButton
         android:id="@+id/radioButton28"
@@ -71,11 +71,11 @@
         android:layout_height="79dp"
         android:layout_marginStart="71dp"
         android:layout_marginEnd="71dp"
-        android:layout_marginBottom="92dp"
+        android:layout_marginBottom="104dp"
         android:text="Siguiente pregunta"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton30" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

@@ -14,6 +14,8 @@
         android:layout_marginTop="53dp"
         android:layout_marginBottom="45dp"
         android:text="¿Qué te gusta hacer los domingos?"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
