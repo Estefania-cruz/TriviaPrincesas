@@ -8,34 +8,9 @@
     tools:context=".MainActivity2">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:weightSum="4">
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Si vas a una fiesta y no conoces a nadie
-    ¿Qué es lo que haces?"
-            android:textSize="14sp"/>
-
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="336dp"
-            android:layout_height="91dp"
-            android:layout_marginStart="30dp"
-            android:layout_marginBottom="39dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/a_c_050_a" />
-    </LinearLayout>
-
-    <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:orientation="vertical"
         android:weightSum="1"
         app:layout_constraintBottom_toTopOf="parent"
@@ -43,56 +18,85 @@
         app:layout_constraintStart_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-
-
-
-
-        <RadioButton
-            android:id="@+id/radioButton4"
-            android:layout_width="282dp"
-            android:layout_height="40dp"
-            android:layout_marginBottom="79dp"
-            android:text="Me quedo en una esquina no soy muy sociable."
-            app:layout_constraintBottom_toTopOf="@+id/radioButton6"
-            app:layout_constraintStart_toStartOf="@+id/radioButton5"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton">
-
-        </RadioButton>
-
-        <RadioButton
-            android:id="@+id/radioButton6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="45dp"
-            android:text="Me pongo a bailar conozca a alguien o no."
-            app:layout_constraintBottom_toTopOf="@+id/btnSigue"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.358"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
-
-        <RadioButton
-            android:id="@+id/radioButton5"
-            android:layout_width="wrap_content"
-            android:layout_height="32dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginEnd="78dp"
-            android:layout_marginBottom="36dp"
-            android:text="Busco a alguien que parezca simpatico."
-            app:layout_constraintBottom_toTopOf="@+id/radioButton6"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="@+id/radioButton6" />
-
-        <Button
-            android:id="@+id/btnSigue"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Siguiente pregunta"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioButton6" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="315dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="21dp"
+        android:text="Si vas a una fiesta y no conoces a nadie
+    ¿Qué es lo que haces?"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="336dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="39dp"
+        app:layout_constraintBottom_toTopOf="@+id/radioButton4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/a_c_050_a" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="282dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="79dp"
+        android:text="Me quedo en una esquina no soy muy sociable."
+        app:layout_constraintBottom_toTopOf="@+id/radioButton6"
+        app:layout_constraintStart_toStartOf="@+id/radioButton5"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:text="Me pongo a bailar conozca a alguien o no."
+        app:layout_constraintBottom_toTopOf="@+id/btnSigue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.358"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="36dp"
+        android:text="Busco a alguien que parezca simpatico."
+        app:layout_constraintBottom_toTopOf="@+id/radioButton6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/radioButton6" />
+
+    <Button
+        android:id="@+id/btnSigue"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="171dp"
+        android:text="Siguiente pregunta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/radioButton6"
+        app:layout_constraintStart_toStartOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton6" />
+
 
 </android.support.constraint.ConstraintLayout>
