@@ -6,11 +6,12 @@
     android:layout_height="match_parent"
     android:background="#DC7A9B"
     tools:context=".PreguntaActivity10">
+
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="46dp"
+        android:layout_marginTop="130dp"
         android:layout_marginBottom="50dp"
         android:text="Si te concedieran un deseo… ¿qué pedirías?"
         android:textSize="16sp"
