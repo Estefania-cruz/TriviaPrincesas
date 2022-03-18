@@ -27,46 +27,41 @@ public class PreguntaActivity3 extends AppCompatActivity {
         respuesta2 = this.findViewById(R.id.radioButton2);
         respuesta3 = this.findViewById(R.id.radioButton3);
 
-        //String nombre = getIntent().getStringExtra("nombre");
-        System.out.println(getIntent().getStringExtra("puntuacion"));
+        String nombre = getIntent().getStringExtra("nombre");
         puntuacionString = getIntent().getStringExtra("puntuacion");
-
-        Toast.makeText(this, "Puntuacion anterior: " + puntuacionString, Toast.LENGTH_SHORT).show();
 
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 puntuacionRespuesta();
-                /*if(puntuacionRespuesta()){
+                if(puntuacionRespuesta()){
                     Intent intent = new Intent(PreguntaActivity3.this, PreguntaActivity4.class);
                     intent.putExtra("nombre", nombre);
-                    intent.putExtra("puntuacion", puntuacion);
+                    intent.putExtra("puntuacion", String.valueOf(puntuacion));
                     startActivity(intent);
+                    finish();
                 }else{
 
-                }*/
+                }
             }
         });
 
     }
 
-    private void puntuacionRespuesta(){
+    private boolean puntuacionRespuesta(){
         puntuacion = Integer.parseInt(puntuacionString);
 
         if(respuesta1.isChecked()){
             puntuacion += 5;
-            Toast.makeText(this, "Puntuacion: " + puntuacion, Toast.LENGTH_SHORT).show();
-            //return true;
+            return true;
         }else if(respuesta2.isChecked()){
             puntuacion += 7;
-            Toast.makeText(this, "Puntuacion: " + puntuacion, Toast.LENGTH_SHORT).show();
-            //return true;
+            return true;
         }else if(respuesta3.isChecked()){
             puntuacion += 1;
-            Toast.makeText(this, "Puntuacion: " + puntuacion, Toast.LENGTH_SHORT).show();
-            //return true;
+            return true;
         }
-        //return false;
+        return false;
     }
 
 }

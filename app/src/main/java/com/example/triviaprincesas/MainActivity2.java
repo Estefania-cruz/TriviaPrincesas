@@ -18,7 +18,6 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        Intent intent = new Intent(MainActivity2.this, PreguntaActivity3.class);
         String nombre = getIntent().getStringExtra("nombre");
 
         boton = this.findViewById(R.id.btnSigue);
@@ -30,37 +29,30 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 puntuacionRespuesta();
-
-                //intent.putExtra("nombre", nombre);
-                intent.putExtra("puntuacion", String.valueOf(puntuacion));
-                startActivity(intent);
-                finish();
-                /*if(puntuacionRespuesta()){
+                if(puntuacionRespuesta()){
                     Intent intent = new Intent(MainActivity2.this, PreguntaActivity3.class);
                     intent.putExtra("nombre", nombre);
-                    intent.putExtra("puntuacion", puntuacion);
+                    intent.putExtra("puntuacion", String.valueOf(puntuacion));
                     startActivity(intent);
+                    finish();
                 }else{
                     //
-                }*/
+                }
             }
         });
     }
 
-    private void puntuacionRespuesta(){
+    private boolean puntuacionRespuesta(){
         if(respuesta1.isChecked()){
             puntuacion = 5;
-            Toast.makeText(this, "Puntuacion: " + puntuacion, Toast.LENGTH_SHORT).show();
-            //return true;
+            return true;
         }else if(respuesta2.isChecked()){
             puntuacion = 7;
-            Toast.makeText(this, "Puntuacion: " + puntuacion, Toast.LENGTH_SHORT).show();
-            //return true;
+            return true;
         }else if(respuesta3.isChecked()){
             puntuacion = 1;
-            Toast.makeText(this, "Puntuacion: " + puntuacion, Toast.LENGTH_SHORT).show();
-            //return true;
+            return true;
         }
-        //return false;
+        return false;
     }
 }

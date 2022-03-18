@@ -11,6 +11,7 @@ public class PreguntaActivity7 extends AppCompatActivity {
     Button boton;
     RadioButton respuesta1, respuesta2, respuesta3;
 
+    String puntuacionString;
     int puntuacion;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +19,7 @@ public class PreguntaActivity7 extends AppCompatActivity {
         setContentView(R.layout.activity_pregunta7);
 
         String nombre = getIntent().getStringExtra("nombre");
-        puntuacion = Integer.parseInt(getIntent().getStringExtra("puntuacion"));
+        puntuacionString = getIntent().getStringExtra("puntuacion");
 
         boton = (Button) findViewById(R.id.btnSiete);
         respuesta1 = this.findViewById(R.id.radioButton16);
@@ -31,8 +32,9 @@ public class PreguntaActivity7 extends AppCompatActivity {
                 if(puntuacionRespuesta()){
                     Intent intent = new Intent(PreguntaActivity7.this, PreguntaActivity8.class);
                     intent.putExtra("nombre", nombre);
-                    intent.putExtra("puntuacion", puntuacion);
+                    intent.putExtra("puntuacion", String.valueOf(puntuacion));
                     startActivity(intent);
+                    finish();
                 }else{
 
                 }
@@ -42,6 +44,8 @@ public class PreguntaActivity7 extends AppCompatActivity {
     }
 
     private boolean puntuacionRespuesta(){
+        puntuacion = Integer.parseInt(puntuacionString);
+
         if(respuesta1.isChecked()){
             puntuacion += 5;
             return true;
